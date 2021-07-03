@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "ADMafia Team"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/admafia.png"
   bio    : "Active Directory Enthusiasties, Red Teamers"
   links:
     - label: "Website"
