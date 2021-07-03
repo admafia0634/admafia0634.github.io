@@ -74,15 +74,15 @@ author:
       
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://"
+    - label: "GitHub br33z3"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/br33z3"
+    - label: "GitHub b3ro"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/beratgisler"
 
 defaults:
   # _posts
