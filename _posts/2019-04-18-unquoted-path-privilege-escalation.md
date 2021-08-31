@@ -2,7 +2,7 @@
 title: "Unquoted Path Privilege Escalation"
 date: 2021-08-16T15:34:30-04:00
 categories:
-  - blog
+  - activedirectory
 tags:
   - Local
   - Privilege Escalation
