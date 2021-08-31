@@ -1,5 +1,5 @@
 ---
-permalink: /link/
+permalink: /links/
 title: "Usefull Links"
 ---
 
