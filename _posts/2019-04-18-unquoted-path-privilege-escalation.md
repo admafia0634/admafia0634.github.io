@@ -1,6 +1,6 @@
 ---
 title: "Unquoted Path Privilege Escalation"
-date: 2021-08-16T15:34:30-04:00
+date: 2021-09-03T15:34:30-04:00
 categories:
   - activedirectory
 tags:
@@ -58,7 +58,7 @@ PowerUp has a solution for that.
 
 Now when we restart the computer windows going to start automatic services and our service call "LocalAdmin Control Service" is going to start automatically from Local System permissions.<br>
 
-We put a *C:\Program Files\osquery\control user\local.exe* this exe is going to add our users in local Administrators group and this service because of the Unquoted Path Service vulnerability goind to execute our malformed executable instead of *C:\Program Files\osquery\control user\local admin\control.exe*
+We put *C:\Program Files\osquery\control user\local.exe* this exe is going to add our user in local Administrators group and this service because of the Unquoted Path Service vulnerability going to execute our malformed executable instead of *C:\Program Files\osquery\control user\local admin\control.exe*
 <br>
 
 Lets restart the machine and look at the Local Administrators group members :))
