@@ -20,6 +20,15 @@ So open a powershell window and import **PowerUp.ps1**
 
 ![PowerUp](/assets/images/Screenshot_2.png)
 
+After Import the PowerUp.ps1 execute **Get-UnquotedService**
+This script is uses Get-WmiObject to query all win32_service objects and extract out the binary pathname for each. Then checks if any binary paths have a space and aren't quoted.
+
+![Get-UnquotedService](/assets/images/Screenshot_3.png)
+
+
+
+
+
 
 
 -br33z3
