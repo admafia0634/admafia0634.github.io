@@ -12,6 +12,10 @@ tags:
 
  	![whoami](/assets/images/Screenshot_1.png)
 
+In these scenario we are the **br33z3_lowpriv user** inside a win10 machine. **br33z3_lowpriv** is a **local user** so its not about active directory domain.
+
+
+
 
 
 
