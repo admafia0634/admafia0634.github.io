@@ -25,7 +25,7 @@ This script is uses Get-WmiObject to query all win32_service objects and extract
 
 ![Get-UnquotedService](/assets/images/Screenshot_3.png)
 
-
+So when we look at the result there is a service call as ***"LocalAdmin Control Service"*** and its executable path "C:\Program Files\osquery\control user\local admin\control.exe"
 
 
 
