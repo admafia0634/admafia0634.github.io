@@ -8,7 +8,12 @@ tags:
   - Privilege Escalation
 ---
 
-Lab Scenario: After you comprimise a machine with low privilege user, you need to privilege escalation to get local admin after that you can enumerate Active Directory domain. 
-`Tools`
+**Lab Scenario:** After you comprimise a machine with low privilege user, you need to privilege escalation to get **local admin** after that you can enumerate Active Directory domain. 
+
+ 	![whoami](/assets/images/Screenshot1.png)
+
+
+
+
 
 -br33z3
