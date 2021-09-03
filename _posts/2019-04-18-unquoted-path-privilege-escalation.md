@@ -38,14 +38,18 @@ You can see there is a;
 
 <br>Windows can not interprete spaces. So if there is a unquoted path like this, windows interpret this executable path like this;
 
-![Windows-Interpret](/assets/images/Screenshot_5.png)
+![Windows-Interpret](/assets/images/Screenshot_5.5.png)
 
 Also when you look at **services.msc** you can see this service informations. What are the important things in here?
 
-+ First item
-+ Second item
-+ Third item
-+ Fourth item 
++ Is this service after the machine startup can be triggered as manual or automatic?
++ Is this service Log on As who?(Local System, Network Service, Local Service)
+<br>
+
+When we look at the picture we can see this service can startup automatically this means even if I dont have permission to restart this services I can restart machine and wait for this service going to be start. This service Log On As Local System this means this is high privileged service so our manipulated executable going to executed as privileged account. Why are we privilege account here because we are going to register our account inside Local Administrators group and this can be only done by privileged accounts or services.
+<br>
+
+
 
 
 -br33z3
