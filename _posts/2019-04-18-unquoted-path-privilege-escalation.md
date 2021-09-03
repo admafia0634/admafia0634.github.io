@@ -27,7 +27,10 @@ This script is uses Get-WmiObject to query all win32_service objects and extract
 
 So when we look at the result there is a service call as ***"LocalAdmin Control Service"*** and its executable path "C:\Program Files\osquery\control user\local admin\control.exe"<br>
 
-We also need to look directory permissions to write that service so you can execute **(Get-UnquotedService)."ModifiablePath"**
+We also need to look directory permissions to write that service so you can execute ```**(Get-UnquotedService)."ModifiablePath"**
+You can see there is a;
+> **C:\Program Files\osquery\control user** path and BUILTIN\Users have a lot of permissions in this directory
+> **C:\Program Files\osquery\control user\local admin\control.exe** path and BUILTIN\Users have a lot of permissions in this directory
 
 ![Modifiable-Path](/assets/images/Screenshot_4.png)
 
