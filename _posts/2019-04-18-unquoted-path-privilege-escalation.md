@@ -16,9 +16,9 @@ tags:
 
 So what are we gonna do that in here is find the **Unquoted Service Paths.** We can do this with a lot of way, but I like **PowerUp**(*https://github.com/PowerShellEmpire/PowerTools/blob/master/PowerUp/PowerUp.ps1*) the most.
 
+So open a powershell window and import **PowerUp.ps1**
 
-
-
+![PowerUp](/assets/images/Screenshot_2.png)
 
 
 
