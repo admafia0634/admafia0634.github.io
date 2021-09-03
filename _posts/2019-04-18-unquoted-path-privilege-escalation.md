@@ -49,7 +49,7 @@ Also when you look at **services.msc** you can see this service informations. Wh
 <p>When we look at the picture we can see this service can startup automatically this means even if I dont have permission to restart this services I can restart machine and wait for this service going to be start. This service Log On As Local System this means this is high privileged service so our manipulated executable going to executed as privileged account. <br>Why are we privilege account here because we are going to register our account inside Local Administrators group and this can be only done by privileged accounts or services.</p>
 <br>
 
-Finally as we mention top of the page BUILTIN\Users have write permissions to *C:\Program Files\osquery\control user\* path so if we write a service binary in this path like this;<br>
+Finally as we mention top of the page BUILTIN\Users have write permissions to * C:\Program Files\osquery\control user\ * path so if we write a service binary in this path like this;<br>
 **C:\Program Files\osquery\control user\local.exe** windows going to execute this when start the "LocalAdmin Control Service"<br>
 PowerUp has a solution for that. 
 
