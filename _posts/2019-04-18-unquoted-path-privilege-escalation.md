@@ -50,7 +50,11 @@ Also when you look at **services.msc** you can see this service informations. Wh
 <br>
 
 Finally as we mention top of the page BUILTIN\Users have write permissions to *C:\Program Files\osquery\control user\** path so if we write a service binary in this path like this;
-**C:\Program Files\osquery\control user\local.exe** windows going to execute this when start the "LocalAdmin Control Service"
+**C:\Program Files\osquery\control user\local.exe** windows going to execute this when start the "LocalAdmin Control Service"<br>
+PowerUp has a solution for that. 
+
+![Write-ServiceBinary](/assets/images/Screenshot_7.png)
+
 
 
 -br33z3
