@@ -38,9 +38,11 @@ Let see the results;
 
 <br>Windows can not interprete spaces. So if there is a unquoted path like this, windows interpret this executable path like this;
 
-![Windows-Interpret](/assets/images/Screenshot_5.5.png)
+![Windows-Interpret](/assets/images/Screenshot_5.png)
 
 Also when you look at **services.msc** you can see this service informations. What are the important things in here?
+
+![Windows-Services](/assets/images/Screenshot_5.5.png)
 
 + Is this service after the machine startup can be triggered as manual or automatic?
 + Is this service Log on As who?(Local System, Network Service, Local Service)
