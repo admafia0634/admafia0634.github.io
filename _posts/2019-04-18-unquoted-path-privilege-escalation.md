@@ -33,15 +33,19 @@ You can see there is a;
 ![Modifiable-Path](/assets/images/Screenshot_4.png)
 
 > **C:\Program Files\osquery\control user** path and BUILTIN\Users have a lot of permissions in this directory
-<br>
+<br><br>
 > **C:\Program Files\osquery\control user\local admin\control.exe** path and BUILTIN\Users have a lot of permissions in this directory
 
 <br>Windows can not interprete spaces. So if there is a unquoted path like this, windows interpret this executable path like this;
 
 ![Windows-Interpret](/assets/images/Screenshot_5.png)
 
+Also when you look at **services.msc** you can see this service informations. What are the important things in here?
 
-
++ First item
++ Second item
++ Third item
++ Fourth item 
 
 
 -br33z3
