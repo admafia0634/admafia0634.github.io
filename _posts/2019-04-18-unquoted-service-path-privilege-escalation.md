@@ -53,7 +53,7 @@ Also when you look at **services.msc** you can see this service informations. Wh
 
 Finally as we mention top of the page BUILTIN\Users have write permissions to * C:\Program Files\osquery\control user\ * path so if we write a service binary in this path like this;<br>
 **C:\Program Files\osquery\control user\local.exe** windows going to execute this when start the "LocalAdmin Control Service"<br>
-PowerUp has a solution for that. <br>
+<br>PowerUp has a solution for that. <br>
 
 When we execute down below the command this script immediately create a executable in vulnerable service path and this executable add our user into local Administrators group.
 
