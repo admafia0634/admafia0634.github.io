@@ -25,7 +25,15 @@ This script is uses Get-WmiObject to query all win32_service objects and extract
 
 ![Get-UnquotedService](/assets/images/Screenshot_3.png)
 
-So when we look at the result there is a service call as ***"LocalAdmin Control Service"*** and its executable path "C:\Program Files\osquery\control user\local admin\control.exe"
+So when we look at the result there is a service call as ***"LocalAdmin Control Service"*** and its executable path "C:\Program Files\osquery\control user\local admin\control.exe"<br>
+
+We also need to look directory permissions to write that service so you can execute **(Get-UnquotedService)."ModifiablePath"**
+
+![Modifiable-Path](/assets/images/Screenshot_4.png)
+
+<br>Windows can not interprete spaces. So if there is a unquoted path like this, windows interpret this executable path like this;
+
+![Windows-Interpret](/assets/images/Screenshot_5.png)
 
 
 
