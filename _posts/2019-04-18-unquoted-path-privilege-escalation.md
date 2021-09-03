@@ -29,11 +29,12 @@ So when we look at the result there is a service call as ***"LocalAdmin Control 
 
 We also need to look directory permissions to write that service so you can execute ```**(Get-UnquotedService)."ModifiablePath"**
 You can see there is a;
+
+![Modifiable-Path](/assets/images/Screenshot_4.png)
+
 > **C:\Program Files\osquery\control user** path and BUILTIN\Users have a lot of permissions in this directory
 <br>
 > **C:\Program Files\osquery\control user\local admin\control.exe** path and BUILTIN\Users have a lot of permissions in this directory
-
-![Modifiable-Path](/assets/images/Screenshot_4.png)
 
 <br>Windows can not interprete spaces. So if there is a unquoted path like this, windows interpret this executable path like this;
 
