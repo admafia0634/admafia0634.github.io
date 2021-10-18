@@ -1,3 +1,16 @@
+---
+title: "Credential Hunting with Shodan via Elastidump"
+date: 2021-10-18T16:16:30-04:00
+categories:
+  - Recon
+tags:
+  - Credential Hunting
+  - Active/Passive Recon
+  - Elastic Search
+  - Elastidump
+  - Shodan
+---
+
 ## Credential Hunting with Shodan via Elastidump
 Hello everyone, today we will be talking about how to get credentials without any effort. As everyone knows shodan is a huge scanner for internet assets. 
 
