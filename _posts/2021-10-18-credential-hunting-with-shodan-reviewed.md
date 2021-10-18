@@ -59,27 +59,27 @@ You can search for more paths and meanings [here](https://www.elastic.co/guide/e
 ##### PoC for Shodan.io and Web Queries:
 
 > Product Keyword Usage:
-![shodanquery](r-ss/shodan-general-search.png)
+![shodanquery](/assets/images/r-ss/shodan-general-search.png)
 
 > Port 9200 - Landing: 
-![landing](r-ss/shodan-web.png)
+![landing](/assets/images/r-ss/shodan-web.png)
 
 > Reading All Components:
-![catall](r-ss/cat-all.png)
+![catall](/assets/images/r-ss/cat-all.png)
 
 > Reading Indices:
-![catindices](r-ss/cat-indices.png)
+![catindices](/assets/images/r-ss/cat-indices.png)
 
 > Reading Spesific Indices:
-> ![catindicesname](r-ss/cat-indices-with-name.png)
+> ![catindicesname](/assets/images/r-ss/cat-indices-with-name.png)
 >
-> ![catindicesname2](r-ss/cat-indices-with-name-2.png)
+> ![catindicesname2](/assets/images/r-ss/cat-indices-with-name-2.png)
 
 > Reading Health of Elastic:
-![cathealth](r-ss/cat-health.png)
+![cathealth](/assets/images/r-ss/cat-health.png)
 
 > Reading Data Line Count:
-![catcount](r-ss/cat-count.png)
+![catcount](/assets/images/r-ss/cat-count.png)
 
 After a successful PoC, we need to reach inside the data. So, good news! we have a new part :)
 
@@ -125,11 +125,11 @@ $ elasticdump --input <http(s)://xx.xx.xx.xx:9200/indices_name> --output /home/x
 ##### PoC for elasticdump:
 
 > General Usage of Elasticdump:
-![elasticdump](r-ss/elasticdump-1.png)
+![elasticdump](/assets/images/r-ss/elasticdump-1.png)
 
 > Results:
-![elasticdumpresults](r-ss/elasticdump-results.png)
-![elasticdumpresults](r-ss/elasticdump-results-2.png)
+![elasticdumpresults](/assets/images/r-ss/elasticdump-results.png)
+![elasticdumpresults](/assets/images/r-ss/elasticdump-results-2.png)
 
 ### Eliminating Raw Data to Meaningful Things
 
@@ -144,13 +144,13 @@ $ cat test.json | jq | grep -e "username" -e "password"
 ##### PoC for Data Elimination:
 
 > Basic Grep with jq:
-![grep](r-ss/grep.png)
+![grep](/assets/images/r-ss/grep.png)
 
 > Extract `password2` Values:
-![grep](r-ss/grep-2.png)
+![grep](/assets/images/r-ss/grep-2.png)
 
 > Extract More:
-![grep](r-ss/grep-results.png)
+![grep](/assets/images/r-ss/grep-results.png)
 
 ### Mitigation
 The administrators can apply following suggestions:
