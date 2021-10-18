@@ -185,4 +185,4 @@ We need to minimise risk and secure the systems for a pure internet. Actually th
 * [Securing Elasticsearch](https://sematext.com/blog/elasticsearch-security-authentication-encryption-backup/)
 * [Guide for Elasticdump](https://blog.logrocket.com/a-practical-guide-to-working-with-elasticdump/)
 
-- b3ro
+-b3ro
